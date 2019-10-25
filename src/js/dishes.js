@@ -1,6 +1,7 @@
-import dishesArr from './dishesArray.js';
+import dishesArr from './dishesArray.json';
 import dish from '../templates/dish.hbs'
 import { stringify } from 'querystring';
+
 
 const markDishes = dish(dishesArr);
 const menu = document.querySelector('#menu');
